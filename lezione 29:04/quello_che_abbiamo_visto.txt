@@ -1,0 +1,13 @@
+
+                tipo di dato        ordinamento         mutabile        ammette elementi distinti
+
+stringa         carattere           si                  no              si
+
+lista           qualsiasi           si                  si              si
+
+tupla           qualsiasi           si                  no              si
+
+dizionario      key(str):value      no                  si              key(no) value(si) = no    
+
+insieme        dati mutabili        no                  si              no
+
