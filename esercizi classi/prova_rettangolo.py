@@ -1,3 +1,4 @@
+from copy import *
 class Punto:
     pass
 
@@ -32,15 +33,14 @@ def TrovaCentro(Rettangolo):
     P.y = Rettangolo.BassoSinistra.y + Rettangolo.Altezza/2
     return P
 
-Centro = TrovaCentro(Rett)
-StampaPunto(Centro)
-
 Rett.Larghezza = Rett.Larghezza + 50
 Rett.Altezza = Rett.Altezza + 100
 
 def AumentaRettangolo(Rett, AumentoLargh,AumentoAlt):
-    Rett.Larghezza = Rett.Larghezza + AumentoLargh
-    Rett.Altezza = Rett.Altezza + AumentoAlt
+    NuovoRett = deepcopy(Rett)
+    NuovoRett.Larghezza = NuovoRett.Larghezza + AumentoLargh
+    NuovoRett.Altezza = NuovoRett.Altezza + AumentoAlt
+    return NuovoRett
 
 R1 = Rettangolo()
 R1.Larghezza = 100
@@ -52,6 +52,46 @@ AumentaRettangolo(R1, 50, 100)
 
 Centro = TrovaCentro(Rett)
 StampaPunto(Centro)
+
 Centro = TrovaCentro(R1)
 StampaPunto(Centro)
+
+R2 = AumentaRettangolo(R1, 50, 100)
+AumentaRettangolo(R1, 50, 100)
+
+
+
+R1.BassoSinistra.x = 1
+print(R2.BassoSinistra.x)  
+R2.BassoSinistra.x = 2
+print(R2.BassoSinistra.x) 
+
+Centro = TrovaCentro(R2)
+StampaPunto(Centro)
+
+Centro = TrovaCentro(R1)
+StampaPunto(Centro)
+
+from copy import copy
+
+P1 = Punto ()
+P1.x = 3
+P1.y = 4
+
+P2 = copy(P1)
+
+print(P1 == P2)
+
+print(StessoPunto(P1, P2))
+
+
+R2.BassoSinistra.x =  1
+print(R1.BassoSinistra.x)
+
+print(R2 is R1)
+
+R2 == R1
+
+from copy import deepcopy
+
 
