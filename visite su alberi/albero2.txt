@@ -1,0 +1,7 @@
+Nodo	Sx,Dx
+a		b,c
+b		d,e
+c		f,-
+d		-,-
+e		-,-
+f		-,-
