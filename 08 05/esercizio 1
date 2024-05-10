@@ -1,0 +1,18 @@
+def A_Ex2(m, d, idsquadra):
+    d_aux = {}
+    for i in range(len(m)):
+        for j in range(len(m)):
+            if m[i][j] is None:
+                continue
+            if(idsquadra == i and m[i][j] == 1):
+                if(d[j].regione not in d_aux):
+                    d_aux[d[j].regione] = 1
+                else:
+                    d_aux[d[j].regione] += 1
+            elif(j==idsquadra and m[i][j] == 1):
+                if(d[i].regione not in d_aux):
+                    d_aux[d[i].regione] = 1
+                else:
+                    d_aux[d[i].regione] += 1
+    return d_aux
+
