@@ -15,4 +15,3 @@ def A_Ex2(m, d, idsquadra):
                 else:
                     d_aux[d[i].regione] += 1
     return d_aux
-
