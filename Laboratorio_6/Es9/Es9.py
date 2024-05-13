@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import copy
 
 class Vertice:
@@ -27,30 +26,4 @@ class Triangolo:
             return True
         else:
             return False
-=======
-#importare libreria copy
-
-class Vertice:
-    def __init__(self,x,y):
-        #da completare a cura dello studente
-        pass
-    
-class Triangolo:
-
-    def __init__(self,a,b,c):
-        #da completare a cura dello studente
-        pass
-
-    def copiaProfonda(self):
-        #da completare a cura dello studente
-        return None
-    
-    def copiaDebole(self):
-        #da completare a cura dello studente
-        return None
-
-    def uguali(self,t):
-        #da completare a cura dello studente
-        return None
->>>>>>> 1a3d7b98b999b4e56004ea7967e618092a76fbf2
  

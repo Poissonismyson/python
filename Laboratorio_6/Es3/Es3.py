@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-class Persona:
-
-    def __init__(self,nome,cognome):
-        #da completare a cura dello studente
-        pass 
-
-    def printNomeCognome(self):
-        #da completare a cura dello studente
-        pass
-=======
 #Definire la classe Persona nel file Es3.py il cui costruttore prende come parametro due stringhe nome e
 #cognome che rappresentano rispettivamente il nome ed il cognome di una persona. Realizzare il metodo
 #print NomeCognome() che stampa a schermo il valore dei due attributi.
@@ -28,4 +17,3 @@ susanna = Persona("Susanna","Blasi")
 
 susanna.printNomeCognome()
  
->>>>>>> 1a3d7b98b999b4e56004ea7967e618092a76fbf2

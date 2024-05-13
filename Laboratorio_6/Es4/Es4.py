@@ -1,14 +1,6 @@
 class Persona :
 
     def __init__(self, nome, cognome): 
-<<<<<<< HEAD
-        #da completare a cura dello studente
-        pass
-
-    def printNomeCognome(self):
-        #da completare a cura dello studente
-        pass
-=======
         self.nome = nome
         self.cognome = cognome
 
@@ -16,27 +8,10 @@ class Persona :
     def printNomeCognome(self):
         print(self.nome + " " + self.cognome)
 
->>>>>>> 1a3d7b98b999b4e56004ea7967e618092a76fbf2
 
 class Automobile :
 
     def __init__(self,t,m,c,p):
-<<<<<<< HEAD
-        #da completare a cura dello studente
-        pass
-
-    def printAutomobile(self):
-        #da completare a cura dello studente
-        pass
-    
-    def verniciatura(self,nuovoColore):
-        #da completare a cura dello studente
-        pass
-
-    def cambiaProprietario(self,nuovoProprietario):
-        #da completare a cura dello studente
-        pass
-=======
         self.t = t
         self.m= m
         self.c = c
@@ -69,5 +44,4 @@ car.printAutomobile()
 
 
 
->>>>>>> 1a3d7b98b999b4e56004ea7967e618092a76fbf2
 
