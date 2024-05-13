@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-class Personaggio:
-
-    def __init__(self,n,i,f,m): 
-        #da completare a cura dello studente
-        pass
-
-    def piuForte(self,p):
-        #da completare a cura dello studente
-        return None
-
-    def __str__(self):
-        #da completare a cura dello studente
-        return None
-=======
 class Personaggio:
 
     def __init__(self,n,i,f,m): 
@@ -37,4 +22,3 @@ class Personaggio:
         ret+=str(3)+")Magia: "+str(self.magia)
         return ret
 
->>>>>>> 1a3d7b98b999b4e56004ea7967e618092a76fbf2

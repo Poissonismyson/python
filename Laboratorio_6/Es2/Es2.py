@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-class Gatto:
-
-    def __init__(self,nome): 
-        #da completare a cura dello studente
-        pass
-
-    def miagola(self):
-        #da completare a cura dello studente
-        pass
-=======
 #Definire la classe Gatto nel file Es2.py il cui costruttore prende come parametro il nome di un gatto.
 #Realizzare il metodo miagola() che stampa a schermo “nome: Miao!”, dove nome è il nome del gatto scelto
 #dall’utente.
@@ -25,4 +14,3 @@ class Gatto:
 
 mario = Gatto("Mario")
 mario.miagola()
->>>>>>> 1a3d7b98b999b4e56004ea7967e618092a76fbf2
