@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ###############################################
 # File di configurazione per esercizio Python #
 ###############################################
@@ -13,4 +14,21 @@ uguali
 # Stringhe da fornire come argomenti del metodo
 # => non dimenticare di racchiuderli tra parentesi ()
 (Triangolo(Vertice(0,0),Vertice(2,0),Vertice(1,1))-->True
+=======
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es9.py
+# Metodo da eseguire
+uguali
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+(Triangolo(Vertice(0,0),Vertice(2,0),Vertice(1,1))-->True
+>>>>>>> 1a3d7b98b999b4e56004ea7967e618092a76fbf2
 (Triangolo(Vertice(0,0),Vertice(2,0),Vertice(1,1))-->False
