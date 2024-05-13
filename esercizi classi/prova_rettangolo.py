@@ -94,4 +94,3 @@ R2 == R1
 
 from copy import deepcopy
 
-
