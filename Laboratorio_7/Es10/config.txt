@@ -1,0 +1,21 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es10.py
+# Metodo da eseguire
+cerca_it,cerca_en,cancella,cancella,cancella,cerca_it,cerca_en
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+("cane")-->"dog"
+("car")-->"macchina"
+("hello")-->("hello","ciao")
+("macchina")-->("macchina","car")
+("macchina")-->-1
+("ciao")-->-1
+("hello")-->-1

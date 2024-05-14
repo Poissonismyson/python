@@ -1,0 +1,17 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es9.py
+# Metodo da eseguire
+matriceSparsa
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+([[0,0,0,0],[0,0,3,0],[0,2,0,0],[0,0,0,6]])-->{'1,2':3,'2,1':2,'3,3':6}
+([[1,0,0,0,0],[0,1,0,0,0],[0,0,1,0,0],[0,0,0,1,0],[0,0,0,0,1]])-->{'0,0':1,'1,1':1,'2,2':1,'3,3':1,'4,4':1}
+([])-->{}

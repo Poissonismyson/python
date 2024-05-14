@@ -1,0 +1,16 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es2.py
+# Metodo da eseguire
+topDJ
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+({'David Guetta': 5, 'Tiesto': 4, 'Martin Garrix': 5, 'Armin van Buuren': 5, 'Hardwell': 4, 'Marshmello': 4, 'Steve Aoki': 4, 'Afrojack': 3, 'Carl Cox': 3, 'Skrillex': 5, 'Calvin Harris': 4, 'deadmau5': 3})-->"Skrillex"
+({})-->""

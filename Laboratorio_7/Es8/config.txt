@@ -1,0 +1,18 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es8.py
+# Metodo da eseguire
+convertiData
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+((11,8,1993))-->('undicesimo','Agosto',1993)
+((21,5,1997))-->('ventunesimo','Maggio',1997)
+((31,12,2020))-->('trentunesimo','Dicembre',2020)
+((1,1,2021))-->('primo','Gennaio',2021)

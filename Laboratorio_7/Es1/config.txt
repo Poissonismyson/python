@@ -1,0 +1,20 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es1.py
+# Metodo da eseguire
+creaDizionario
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+(0)-->{'0': 0}
+(1)-->{'0': 0, '1': 1}
+(2)-->{'0': 0, '1': 1, '2': 4}
+(4)-->{'0': 0, '1': 1, '2': 4, '3': 9, '4': 16}
+(8)-->{'0': 0, '1': 1, '2': 4, '3': 9, '4': 16, '5': 25, '6': 36, '7': 49, '8': 64}
+(10)-->{'0': 0, '1': 1, '2': 4, '3': 9, '4': 16, '5': 25, '6': 36, '7': 49, '8': 64, '9': 81, '10': 100}

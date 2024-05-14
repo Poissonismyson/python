@@ -1,0 +1,18 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es4.py
+# Metodo da eseguire
+contaParole
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+(['night gathers and now my watch begins','it shall not end until my death','I shall take no wife','hold no lands father no children','I shall wear no crowns and win no glory','I shall live and die at my post','I am the sword in the darkness','I am the watcher on the walls','I am the shield that guards the realms of men','I pledge my life and honor to the nights watch','for this night and all the nights to come'])-->{'my': 4, 'shall': 4, 'no': 5, 'I': 7, 'and': 5, 'the': 8, 'am': 3, 'watch': 2, 'night': 2, 'nights': 2, 'to': 2}
+(['you clearly do not know who you are talking to','so let me clue you in','I am not in danger skyler','I am the danger','a guy opens his door and gets shot','and you think that of me','no I am the one who knocks'])-->{'you': 4, 'not': 2, 'in': 2, 'I': 3, 'am': 3, 'danger': 2, 'and': 2, 'me': 2, 'the': 2, 'who': 2}
+(['you can breathe','you can blink','you can cry','hell you are all gonna be doing that','oh oh look at that','taking it like a champ'])-->{'you': 4, 'can': 3, 'oh': 2, 'that': 2}
+([])-->{}

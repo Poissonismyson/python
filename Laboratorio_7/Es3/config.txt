@@ -1,0 +1,18 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es3.py
+# Metodo da eseguire
+quantePersone
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+(['Formentera,Luglio,500','Mykonos,Luglio,600','Ibiza,Luglio,800','Mykonos,Agosto,1000','Ibiza,Agosto,1500','Ibiza,Settembre,400'])-->{'Formentera': 500, 'Mykonos': 1600, 'Ibiza': 2300}
+(['Lloret de Mar,Giugno,100','Benidorm,Giugno,75','Santorini,Giugno,50','Corfù,Giugno,55','Pag,Giugno,80','Lloret de Mar,Luglio,300','Pag,Luglio,300','Gallipoli,Agosto,1000'])-->{'Lloret de Mar': 300, 'Pag': 300, 'Gallipoli': 1000}
+(['Lloret de Mar,Giugno,100','Benidorm,Giugno,75','Santorini,Giugno,50','Corfù,Giugno,55','Pag,Giugno,80'])-->{}
+([])-->{}
