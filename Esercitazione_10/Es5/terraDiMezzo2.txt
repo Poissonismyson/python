@@ -1,0 +1,11 @@
+ConteaBaggins	Isengard
+ConteaBaggins	TerreSelvagge
+Isengard	MinasTirith
+MinasTirith	FossoDiHelm
+FossoDiHelm	MinasTirith
+TerreSelvagge	FossoDiHelm
+MinasTirith	BaradDur
+Osgiliath	PaludiMorte
+Osgiliath	MinasMorgul
+MinasMorgul	BaradDur
+MinasMorgul	MonteFato
