@@ -1,3 +1,21 @@
 def contaParole(frasi):
-    #da completare a cura dello studente
-    return None
+    diz = {}
+    rem = set()
+    for i in frasi:
+        parole = i.split(' ')
+        for parola in parole:
+            if parola in diz:
+                diz[parola] += 1
+                rem.discard(parola)
+           
+            else:
+                diz[parola] = 1
+                rem.add(parola)
+
+    
+    for j in list(rem):
+        del diz[j]
+
+    return diz
+            
+
