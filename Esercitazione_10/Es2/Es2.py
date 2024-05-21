@@ -1,9 +1,10 @@
 def maxInDegree(g):
-    max = 0
+    max = 0 #counter
     t = tuple()
 
     for i in g.getVertices():
             grado = 0
+            
             for j in g.getVertices():
                 if i in g.getVertex(j).getConnections():
                     grado += 1
