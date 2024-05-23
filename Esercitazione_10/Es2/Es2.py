@@ -1,15 +1,14 @@
 def maxInDegree(g):
-    max = 0 #counter
     t = tuple()
-
-    for i in g.getVertices():
-            grado = 0
+    massimo = 0
+    for v1 in g.getVertices():
+        grado = 0
+        for v2 in g.getVertices():
+            if v1 in g.getVertex(v2).getConnections():
+                grado += 1
+            if grado > massimo:
+                massimo = grado
+                t = (v1,massimo)
             
-            for j in g.getVertices():
-                if i in g.getVertex(j).getConnections():
-                    grado += 1
-            if grado > max:
-                max = grado
-                t = (i, max)
     return t
 
