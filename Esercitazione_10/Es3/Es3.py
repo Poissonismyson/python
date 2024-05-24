@@ -1,11 +1,14 @@
 def sommaVicini(g, u):
-    
-    if u not in g.getVertices():
+
+    somma = 0
+
+    if u not in g:
         return None
     
-     s = 0
+    if u in g:
+        for v in g.getVertices():
+            vertice = g.getVertex(v)
+            if u in vertice.getConnections():
+                somma += int(vertice.getId())
     
-    for vertexname in g.getVertices():
-        if u in g.getVertex(vertexname).getConnections():
-            s += int(vertexname)
-    return s
+    return somma
