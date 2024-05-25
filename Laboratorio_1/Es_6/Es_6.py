@@ -1,0 +1,10 @@
+radice = input("inserire una parola della prima declinazione: ")
+radice = radice.rstrip('a')
+
+print("Caso \t Singolare \t Plurale")
+print("Nominativo \t" + radice + "a \t" + radice + "ae")
+print("Genitivo \t" + radice + "ae \t" + radice + "arum")
+print("Dativo \t\t" + radice + "ae \t" + radice + "is")
+print("Accusativo \t" + radice + "am \t" + radice + "as")
+print("Vocativo \t" + radice + "a \t" + radice + "ae")
+print("Ablativo \t" + radice + "a \t" + radice + "is")
