@@ -1,0 +1,17 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es8.py
+# Metodo da eseguire
+listamaggiori
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+([[1,0,8,0,0,2],[7,1,0,0],[-1,8,2,0,1,1],[5,6,-1,4,9]])-->[8,7,8,9]
+([[-10,-2,-3],[-100,-90,-82,0],[-75,-1]])-->[-2,0,-1]
+([[-1,0,0,-5],[2,5,0,1,10],[1,-8,3,0],[9,-12,3]])-->[0,10,3,9]

@@ -1,0 +1,17 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es5.py
+# Metodo da eseguire
+validatriangolareinferiore
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+([[1,2,3],[4,5,6],[7,8,9]])-->False
+([[1,0,0,0],[5,2,0,0],[8,10,3,0],[7,5,11,14]])-->True
+([[1,2,3],[1,2,3],[1,2,3]])-->False
