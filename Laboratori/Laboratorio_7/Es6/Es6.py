@@ -1,42 +1,56 @@
 class Dizionario:
 
         def __init__(self,d):
-                #da completare a cura dello studente
-                pass
+                self.d = d
+
 
         def size(self):
-                #da completare a cura dello studente
-                return None
+                
+                return len(self.d)
 
         def isEmpty(self):
-                #da completare a cura dello studente
-                return None
+                
+                return not self.d
 
         def find(self,k):
-                #da completare a cura dello studente
-                return None
+                if k in self.d:
+                        return True
+                else:
+                        return False
 
         def insert(self,k,v):
-                #da completare a cura dello studente
-                return None
+                l = [k]
+                if k in self.d:
+                        l.append(self.d[k])
+                        
+                else:
+                        l.append(v)
+                
+                self.d[k]= v
+                return tuple(l)
+
                 
         def remove(self,k):
-                #da completare a cura dello studente
-                return None
+                t = tuple()
+                if k in self.d:
+                        
+                        t = (k, self.d.pop(k))
+                        return t
+                return t
 
         def keys(self):
-                #da completare a cura dello studente
-                return None
+                l = [k for k in self.d.keys()]
+                return l
         
         def values(self):
-                #da completare a cura dello studente
-                return None
+                l = [v for v in self.d.values()]
+                return l
 
         def pairs(self):
-                #da completare a cura dello studente
-                return None
+                l = [p for p in self.d.items()]
+                return l
 
         def sort(self):
-                #da completare a cura dello studente
-                return None
+                l = self.pairs()
+                return sorted(l)
 

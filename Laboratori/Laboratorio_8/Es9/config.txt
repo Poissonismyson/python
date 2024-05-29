@@ -1,0 +1,18 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es9.py
+# Metodo da eseguire
+ritornaDispari
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+("file1.txt")-->[11,13,15,17,19]
+("file2.txt")-->[]
+("file3.txt")-->[]
+("file4.txt")-->[-19,-17,-15,-13,-11,-9,-7,-5,-3,-1]

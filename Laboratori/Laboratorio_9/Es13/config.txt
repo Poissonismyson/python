@@ -1,0 +1,20 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es13.py
+# Metodo da eseguire
+ricercaBinaria
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+([10,20,30,40,50,60,70,80,90,100],0,9,50)-->4
+([10,20,30,40,50,60,70,80,90,100],9,0,50)-->-1
+([10,20,30,40,50,60,70,80,90,100],0,9,9)-->-1
+([10,20,30,40,50,60,70,80,90,100],0,9,101)-->-1
+([10,20,30,40,50,60,70,80,90,100],0,9,10)-->0
+([10,20,30,40,50,60,70,80,90,100],0,9,100)-->9
