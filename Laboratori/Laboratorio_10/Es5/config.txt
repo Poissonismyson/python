@@ -1,0 +1,17 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+BuildGraph, Grafo, Vertice
+# Nome del file realizzato dallo studente
+Es5.py
+# Metodo da eseguire
+from_ConteaBaggins_to_MonteFato
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+(BuildGraph.costruisci_grafo("terraDiMezzo.txt"))-->True
+(BuildGraph.costruisci_grafo("terraDiMezzo2.txt"))-->False
+
