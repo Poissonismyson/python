@@ -1,48 +1,28 @@
 def spaceCraft(navicelle):
-
         dic = {}
-        lo = []
-        lc = []
+        dark_side = []
+        light_side = []
 
-        for n in navicelle:
-                l = n.split(',')
-                
-                if l[0] == 'Lato Oscuro':
-                        lo.append(l)
+        for entry in navicelle:
+                data = entry.split(',')
+
+                if data[0] == 'Lato Oscuro':
+                        dark_side.append(data)
                 else:
-                        lc.append(l)
+                        light_side.append(data)
+        
+        dark_side_sorted = sorted(dark_side, key = lambda x: int(x[3]), reverse=True)
+        light_side_sorted = sorted(light_side, key = lambda x: int(x[3]), reverse=True)
 
-        lo = powersort(lo)
-        lc = powersort(lc)
-        lo1 =[]
-        lc1 = []
-        if lo:
-                for i in lo:
-                        p = (i[2],i[1])
-                        lo1.append(p)
-        if lc:
-                for i in lc:
-                        p = (i[2],i[1])
-                        lc1.append(p)
+        dark_side_final = [(i[2],i[1]) for i in dark_side_sorted]
+        light_side_final = [(i[2],i[1]) for i in light_side_sorted]
+
+        if dark_side_final:
+                dic['Lato Oscuro'] = dark_side_final
         
-        if lo1:
-                dic['Lato Oscuro'] = lo1
-        
-        if lc1:
-                dic['Lato Chiaro'] = lc1
-        
+        if light_side_final:
+                dic['Lato Chiaro'] = light_side_final
 
         return dic
-
-
-
-def powersort(l):
-        ret = []
         
-        while l:
-                max_index = 0
-                for i in range(1,len(l)):
-                        if int(l[i][3]) > int(l[max_index][3]):
-                                max_index = i
-                
-                ret.append(l.pop(max_index))
+        

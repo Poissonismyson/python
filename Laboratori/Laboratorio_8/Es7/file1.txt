@@ -1,0 +1,2 @@
+Jordan 20;LeBron 13;Bryant 23;O'Neal 15
+LeBron 21;Jordan 17;Gallinari 18

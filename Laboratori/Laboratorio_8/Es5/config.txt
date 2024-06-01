@@ -1,0 +1,18 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es5.py
+# Metodo da eseguire
+frequenzaCarattere
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+("file1.txt",'t')-->0
+("file1.txt",'z')-->-1
+("file2.txt",'r')-->1
+("file3.txt",'r')-->-1

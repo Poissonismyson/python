@@ -1,0 +1,27 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es3.py
+# Metodo da eseguire
+size,isEmpty,isEmpty,find,find,insert,insert,remove,remove,sottoinsieme,sottoinsieme,soprainsieme,soprainsieme
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+({1, 2, 3, 'b', 'a', 'c'})-->6
+(set())-->True
+({1, 2, 3, 'b', 'a', 'c'})-->False
+({1, 2, 3, 'b', 'a', 'c'},4)-->False
+({1, 2, 3, 'b', 'a', 'c'},3)-->True
+({1, 2, 3, 'b', 'a', 'c'},4)-->1
+({1, 2, 3, 'b', 'a', 'c'},3)-->-1
+({1, 2, 3, 'b', 'a', 'c'},4)-->-1
+({1, 2, 3, 'b', 'a', 'c'},3)-->1
+({1, 2, 3, 'b', 'a', 'c'},{'d', 1, 2, 3, 'b', 'a', 'c'})-->True
+({1, 2, 3, 'b', 'a', 'c'},{1, 2, 3, 'b', 'a'})-->False
+({1, 2, 3, 'b', 'a', 'c'},{1, 2, 3, 'b', 'a'})-->True
+({1, 2, 3, 'b', 'a', 'c'},{'d', 1, 2, 3, 'b', 'a', 'c'})-->False
