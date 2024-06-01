@@ -1,0 +1,17 @@
+###############################################
+# File di configurazione per esercizio Python #
+###############################################
+#
+# Moduli da importare, separati da virgola oppure "NoHelperModules"
+NoHelperModules
+# Nome del file realizzato dallo studente 
+Es6.py
+# Metodo da eseguire
+restituiscistringa
+# Operatore del docente da usare per il confronto (== per il confronto nativo Python)
+==
+# Stringhe da fornire come argomenti del metodo
+# => non dimenticare di racchiuderli tra parentesi ()
+([[1,2,3],[4,5,6],[7,8,9]],1)-->"123 456 789"
+([['f','e','c','r'],[1,2,'c','f'],['c','i','a','o'],['j',5,'z',5],['p','i','n','o']],2)-->"12cf j5z5"
+([['f','e','c','r'],['c','i','a','o'],[1,2,'c','f'],['p','i','n','o'],['j',5,'z',5]],7)-->""
