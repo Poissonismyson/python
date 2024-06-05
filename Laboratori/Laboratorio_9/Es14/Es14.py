@@ -1,3 +1,8 @@
 def multipliDecrescenti(l):
-    #da completare a cura dello studente
-    return None
+    if len(l) == 0:
+        return []
+    if l[0]%10 == 0:
+        return multipliDecrescenti(l[1:]) + [l[0]]
+    else:
+        return multipliDecrescenti(l[1:])
+    
