@@ -1,37 +1,42 @@
 class Insieme:
 
     def __init__(self,s):
-        #da completare a cura dello studente
+        self.s = s
         pass
 
     def size(self):
-        #da completare a cura dello studente
-        return None
+        
+        return len(self.s)
     
     def isEmpty(self):
-        #da completare a cura dello studente
-        return None
+        if len(self.s) == 0:
+            return True
+        else:
+            return False
 
     def svuota(self):
-        #da completare a cura dello studente
-        pass
+        self.s = set()
+        return self.s
         
     def find(self,e):
-        #da completare a cura dello studente
-        return None
+        return e in self.s
 
     def insert(self,e):
-        #da completare a cura dello studente
-        return None
+        if e not in self.s:
+            self.s.add(e)
+            return 1
+        else:
+            return -1
 
     def remove(self,e):
-        #da completare a cura dello studente
-        return None
+        if e in self.s:
+            self.s.remove(e)
+            return 1
+        else:
+            return -1
 
     def sottoinsieme(self,s2):
-        #da completare a cura dello studente
-        return None
+        return self.s.issubset(s2)
 
     def soprainsieme(self,s2):
-        #da completare a cura dello studente
-        return None
+        return self.s.issuperset(s2)
