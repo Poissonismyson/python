@@ -1,3 +1,7 @@
 def massimo(l):
-    #da completare a cura dello studente
-    return None
+    if len(l) < 1:
+        return 0
+    if len(l) == 1:
+        return l[0]
+    else:
+        return max(l[0],massimo(l[1:]))
